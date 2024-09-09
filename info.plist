@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.SoPat712.Alfrente</string>
+	<key>connections</key>
+	<dict>
+		<key>06E51555-EDA1-4A36-BF0B-20142A24CFE0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9DF67A4A-D98F-4F5F-B727-CEE12B4B3174</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>0C187188-9FF9-4EB2-817F-173727497FA9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C0DA675B-D186-4296-8747-94167DEE911B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>0E61E013-CDD6-46F4-9D10-0F8D759BE89A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>051C8446-B273-4DD3-B3D6-A3C85C5C672E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>168466C8-B88A-4145-AEDC-3D71F0E8EBD8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D0F25718-4103-44C6-82F7-ECEF9E5AC950</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D0F25718-4103-44C6-82F7-ECEF9E5AC950</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>06E51555-EDA1-4A36-BF0B-20142A24CFE0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string>Copy current code</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>0C187188-9FF9-4EB2-817F-173727497FA9</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Paste current code</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F501A009-EEE6-4C5F-B8D7-4FFC441B1D37</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Copy next code</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>0E61E013-CDD6-46F4-9D10-0F8D759BE89A</string>
+				<key>modifiers</key>
+				<integer>1572864</integer>
+				<key>modifiersubtext</key>
+				<string>Paste next code</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F501A009-EEE6-4C5F-B8D7-4FFC441B1D37</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D97A7C20-3DAB-4923-9185-AECA6C6AD065</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Josh Patra</string>
+	<key>description</key>
+	<string>An Alfred-Ente workflow to access your 2FA codes with</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Alfrente</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{var:split1}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>9DF67A4A-D98F-4F5F-B727-CEE12B4B3174</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:keyword}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>Getting code for query: "{query}"...</string>
+				<key>script</key>
+				<string>python3 main.py get -o alfred "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>What service do you need a code for?</string>
+				<key>title</key>
+				<string>{const:alfred_workflow_name}</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>D0F25718-4103-44C6-82F7-ECEF9E5AC950</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>14</integer>
+				<key>hotmod</key>
+				<integer>917504</integer>
+				<key>hotstring</key>
+				<string>E</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>168466C8-B88A-4145-AEDC-3D71F0E8EBD8</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>,</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>0</integer>
+				<key>trimarguments</key>
+				<true/>
+				<key>variableprefix</key>
+				<string>split</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>06E51555-EDA1-4A36-BF0B-20142A24CFE0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>,</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>0</integer>
+				<key>trimarguments</key>
+				<true/>
+				<key>variableprefix</key>
+				<string>split</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>0C187188-9FF9-4EB2-817F-173727497FA9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{var:split1}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>C0DA675B-D186-4296-8747-94167DEE911B</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>,</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>0</integer>
+				<key>trimarguments</key>
+				<true/>
+				<key>variableprefix</key>
+				<string>split</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>F501A009-EEE6-4C5F-B8D7-4FFC441B1D37</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>,</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>0</integer>
+				<key>trimarguments</key>
+				<true/>
+				<key>variableprefix</key>
+				<string>split</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>0E61E013-CDD6-46F4-9D10-0F8D759BE89A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{var:split2}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>D97A7C20-3DAB-4923-9185-AECA6C6AD065</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{var:split2}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>051C8446-B273-4DD3-B3D6-A3C85C5C672E</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># An Alfred Workflow that uses your Ente Exports
+
+GitHub Link: https://github.com/SoPat712/Alfrente
+
+Ente Auth CLI does [not support](https://github.com/ente-io/ente/discussions/716) exporting TOTP codes. To use this project, please export from the Ente app and then manually import them into the workflow's database using the `import` parameter.
+
+&gt; [!NOTE]
+&gt; In the future, the workflow will take care of the import.
+&gt; In addtion, once support for exporting codes via CLI is supported, we will use that instead.
+
+## Setup
+
+1. Install workflow from releases
+2. Follow the instructions below to create the database
+
+## Instructions
+
+1. Open Alfred
+2. Go to workflows
+3. Right click the Ente 2FA workflow and press `Open In Finder`.
+4. Export in plain text your Ente 2FA codes
+5. Rename that file to secrets.txt and put it in the folder that got opened previously
+
+See GitHub for the images
+  
+6. Open a Terminal and cd to the the folder containing the `main.py` file
+7. Run `python main.py import secrets.txt`
+8. Run `.ente` in Alfred and let the database populate
+
+&gt; [!WARNING]
+&gt; DELETE THE FILE AFTER THE IMPORT IS COMPLETE
+
+
+&gt; [!IMPORTANT]
+&gt; Changes made to the accounts in Ente Auth will not auto-update the database. Please rerun the steps.
+
+
+## If you used to use momaek's Authy workflow
+
+You already have a saved copy of the secrets on your machine, stored in your home directory named .authycache.json
+
+```html
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Convert Data&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;script&gt;
+    let original_data = [
+      {
+        "name": "Microsoft: sopat712@sopat712.com",
+        "original_name": "Microsoft:sopat712@sopat712.com",
+        "digital": 6,
+        "secret": "OA123JSDF123IBQ123BONOAN",
+        "period": 0,
+        "weight": 420
+      },
+      {
+        "name": "Google: sopat712@sopat712.com",
+        "original_name": "Google:sopat712@sopat712.com",
+        "digital": 6,
+        "secret": "IAVNAIV123867NAVI1NAV123123",
+        "period": 0,
+        "weight": 969
+      }
+    ];
+
+    let convertedData = [];
+
+    for (let item of original_data) {
+      let newFormat = `otpauth://totp/${item.name}?secret=${item.secret}`;
+      convertedData.push(newFormat);
+    }
+
+    console.log(convertedData.join("\n"));
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```
+
+Paste this into your preferred text editor and replace what is between the original_data brackets with the data in your .authycache.json. Save the file as whatever.html. Then open the file with your browser. Copy paste the output into a new file and then import that into the Ente Auth app. Let me know if any issues pop up. I'll open up a discussion about it as well.
+
+GitHub Link: https://github.com/SoPat712/Alfrente</string>
+	<key>uidata</key>
+	<dict>
+		<key>051C8446-B273-4DD3-B3D6-A3C85C5C672E</key>
+		<dict>
+			<key>xpos</key>
+			<real>1015</real>
+			<key>ypos</key>
+			<real>495</real>
+		</dict>
+		<key>06E51555-EDA1-4A36-BF0B-20142A24CFE0</key>
+		<dict>
+			<key>xpos</key>
+			<real>590</real>
+			<key>ypos</key>
+			<real>165</real>
+		</dict>
+		<key>0C187188-9FF9-4EB2-817F-173727497FA9</key>
+		<dict>
+			<key>xpos</key>
+			<real>590</real>
+			<key>ypos</key>
+			<real>220</real>
+		</dict>
+		<key>0E61E013-CDD6-46F4-9D10-0F8D759BE89A</key>
+		<dict>
+			<key>xpos</key>
+			<real>590</real>
+			<key>ypos</key>
+			<real>350</real>
+		</dict>
+		<key>168466C8-B88A-4145-AEDC-3D71F0E8EBD8</key>
+		<dict>
+			<key>xpos</key>
+			<real>75</real>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
+		<key>9DF67A4A-D98F-4F5F-B727-CEE12B4B3174</key>
+		<dict>
+			<key>xpos</key>
+			<real>1010</real>
+			<key>ypos</key>
+			<real>80</real>
+		</dict>
+		<key>C0DA675B-D186-4296-8747-94167DEE911B</key>
+		<dict>
+			<key>xpos</key>
+			<real>1015</real>
+			<key>ypos</key>
+			<real>230</real>
+		</dict>
+		<key>D0F25718-4103-44C6-82F7-ECEF9E5AC950</key>
+		<dict>
+			<key>xpos</key>
+			<real>280</real>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
+		<key>D97A7C20-3DAB-4923-9185-AECA6C6AD065</key>
+		<dict>
+			<key>xpos</key>
+			<real>1010</real>
+			<key>ypos</key>
+			<real>370</real>
+		</dict>
+		<key>F501A009-EEE6-4C5F-B8D7-4FFC441B1D37</key>
+		<dict>
+			<key>xpos</key>
+			<real>590</real>
+			<key>ypos</key>
+			<real>290</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>.ente</string>
+				<key>placeholder</key>
+				<string>.ente</string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>The key to trigger the workflow</string>
+			<key>label</key>
+			<string>Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>keyword</string>
+		</dict>
+	</array>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>1.4.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/SoPat712/Alfrente</string>
+</dict>
+</plist>
