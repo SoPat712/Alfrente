@@ -1,4 +1,5 @@
-<img src="https://github.com/user-attachments/assets/3d1c94e4-6911-4549-add6-df0c07d8078f" width="200" />
+![image](https://github.com/user-attachments/assets/5900500b-dd84-45c4-8bee-af18375256f5)
+
 
 # An Alfred Workflow that uses your Ente Exports
 
@@ -21,8 +22,7 @@ Ente Auth CLI does [not support](https://github.com/ente-io/ente/discussions/716
 4. Export in plain text your Ente 2FA codes
 5. Rename that file to secrets.txt and put it in the folder that got opened previously
 
-![image](https://github.com/user-attachments/assets/741a92a0-26f5-4550-94fd-0bef3554945d)
-
+![image](https://github.com/user-attachments/assets/d59a18a1-e63d-4206-9f87-fae9dbb11877)
 
 It should look something like this
   
